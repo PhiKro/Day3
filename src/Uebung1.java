@@ -1,4 +1,5 @@
-
+// For schleifen und deren Steuerung 
+// Break und Continue Steuerbefehle.
 public class Uebung1 
 {
 	public static void main(String[] args)
@@ -36,7 +37,7 @@ public class Uebung1
 		//werte die durch 5 Teilbar sind oder zwischen 40 - 70 Liegen ignorieren 
 		for (int i =1;i<=100; i++)
 		{
-			if ((i%5)==0 || i>=40 && i<=70)
+			if ((i%5)==0 || (i>=40 && i<=70))
 			{
 				continue;
 			}
